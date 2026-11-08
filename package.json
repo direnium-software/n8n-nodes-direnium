@@ -1,0 +1,55 @@
+{
+  "name": "n8n-nodes-direnium",
+  "version": "0.1.0",
+  "description": "Place calls with your Direnium AI voice agents from n8n workflows.",
+  "license": "MIT",
+  "homepage": "https://direnium.com",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "direnium",
+    "voice agent",
+    "ai phone calls"
+  ],
+  "author": {
+    "name": "Direnium",
+    "email": "adir@direnium.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/direnium/n8n-nodes-direnium.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease",
+    "test": "n8n-node build && node --test test/outcome.test.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/DireniumApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Direnium/Direnium.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "0.55.5",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^21.1.0",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

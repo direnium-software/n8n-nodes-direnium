@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-direnium",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/direnium/n8n-nodes-direnium#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/direnium/n8n-nodes-direnium#readme"
+			}
+		]
+	}
+}
