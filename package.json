@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-direnium",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Place calls with your Direnium AI voice agents from n8n workflows.",
   "license": "MIT",
   "homepage": "https://direnium.com",
