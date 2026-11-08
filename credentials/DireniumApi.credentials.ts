@@ -15,7 +15,7 @@ export class DireniumApi implements ICredentialType {
 		dark: 'file:../nodes/Direnium/direnium.dark.svg',
 	} as const;
 
-	documentationUrl = 'https://github.com/direnium/n8n-nodes-direnium#credentials';
+	documentationUrl = 'https://github.com/direnium-software/n8n-nodes-direnium#credentials';
 
 	properties: INodeProperties[] = [
 		{
