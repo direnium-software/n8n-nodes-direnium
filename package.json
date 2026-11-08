@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-direnium",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Place calls with your Direnium AI voice agents from n8n workflows.",
   "license": "MIT",
   "homepage": "https://direnium.com",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/direnium-software/n8n-nodes-direnium.git"
+    "url": "git+https://github.com/direnium-software/n8n-nodes-direnium.git"
   },
   "scripts": {
     "build": "n8n-node build",
@@ -54,5 +54,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
